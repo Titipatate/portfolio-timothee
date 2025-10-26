@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="projets-actuelles.css" />
+    <title>Projets Actuelles</title>
+  </head>
+  <body data-page="page-projet-actu">
+    <div class="background"></div>
+    <header>
+      <div id="navbar-principal"></div>
+    </header>
+    <main>
+      <section class="content-section content">
+        <div class="container" id="container-projets-detailles">
+          <!-- contenu automatique par js -->
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light py-5 mt-5">
+      <div id="footer-container"></div>
+    </footer>
+    <script src="projets-actuelles.js"></script>
+    <!-- Contenu dynamqieu des card -->
+    <script src="../../dictionnaireDonner/dicoExperiencesPerso.js"></script>
+    <script src="../../composent/projet-actuelles-card/auto-card-p-actuelles.js"></script>
+    <!--BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/6ff52447d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- NAVBAR principale -->
+    <script src="../../composent/navbar-first/navbar-first.js"></script>
+    <!-- FOOTER -->
+    <script>
+      fetch("../../composent/footer/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

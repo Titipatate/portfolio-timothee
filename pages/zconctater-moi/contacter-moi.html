@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="conctater-moi.css" />
+    <title>Contacter Moi</title>
+  </head>
+  <body data-page="contacter-moi">
+    <header>
+      <div id="navbar-principal"></div>
+    </header>
+    <main>
+      <section class="content-section">
+        <div class="container">
+          <h2 id="contact">Formulaire de Contact</h2>
+          <div class="card border-dark">
+            <div class="card-body">
+              <form action="https://formspree.io/f/mjkagzgr" method="POST">
+                <div class="mb-3">
+                  <label class="form-label">Adresse Email *</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Message *</label>
+                  <textarea
+                    class="form-control"
+                    rows="3"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="mb-3 text-center">
+                  <button type="submit" class="btn btn-primary">Envoyer</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light py-5 mt-5">
+      <div id="footer-container"></div>
+    </footer>
+    <!--BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/6ff52447d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- NAVBAR principale -->
+    <script src="../../composent/navbar-first/navbar-first.js"></script>
+    <!--Contient animation et footer-->
+    <script src="conctater-moi.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "label": "My Life",
+      "href": "../../pages/my-life/my-life.html",
+      "dataPage": "page-my-life",
+      "status": "coming-soon"
+    },
+    {
+      "label": "Projets Actuels",
+      "href": "../../pages/projets-actuelles/projets-actuelles.html",
+      "dataPage": "page-projet-actu",
+      "status": "active"
+    },
+    {
+      "label": "Projets Passés",
+      "href": "../../pages/projets-passes/projets-passes.html",
+      "dataPage": "page-projet-passes",
+      "status": "coming-soon"
+    },
+    {
+      "label": "Contactez Moi",
+      "href": "../../pages/zconctater-moi/contacter-moi.html",
+      "dataPage": "contacter-moi",
+      "status": "active"
+    }
+  ]
+}
