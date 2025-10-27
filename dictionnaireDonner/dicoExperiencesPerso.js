@@ -20,7 +20,7 @@ const dicoExperiencesPerso = [
         nom: "Catia",
         icon: null,
         color: null,
-        image: "../../media/img/logo-icon/catia.png",
+        image: "/portfolio-timothee/media/img/logo-icon/catia.png",
       },
     ], // pour permettre de les afficher dans des badges dynamiques
     iconautre: "fa-regular fa-snowflake", //Pour remplacer les point des ul li par des icons
@@ -37,13 +37,13 @@ const dicoExperiencesPerso = [
     ], // Les enjeux pour moi derrière ce projet
     imagesVideoProjet: null, // stocker en dur dans l'arobrecences ou lien internet mettre ici le lien
     imagesVideoIdee: [
-      "../../media/img/projet/idee-calendrier-2.0.jpg",
-      "../../media/img/projet/idee2-calendrier-2.0.webp",
+      "/portfolio-timothee/media/img/projet/idee-calendrier-2.0.jpg",
+      "/portfolio-timothee/media/img/projet/idee2-calendrier-2.0.webp",
     ], // stocker en dur dans l'arobrecences ou lien internet mettre ici le lien
     points: [
       "Imaginez/imprimer un calendrier qui aura une autre utilité par la suite",
     ], // ce points c'est juste pour un autre composant qui en a besoin, c'est pour l'explication minime ce tranvant dans index
-    lienProjet: "../../pages/projets-actuelles/projets-actuelles.html",
+    lienProjet: "/portfolio-timothee/pages/projets-actuelles/projets-actuelles.html",
   },
 
   {
@@ -66,7 +66,7 @@ const dicoExperiencesPerso = [
     imagesVideoProjet: ["lien", "lien"],
     imagesVideoIdee: null,
     points: ["Concevoir/construire un robot format compacte autonome"],
-    lienProjet: "../../pages/projets-actuelles/projets-actuelles.html",
+    lienProjet: "/portfolio-timothee/pages/projets-actuelles/projets-actuelles.html",
   },
 
   //   Ancienne form du dico à changé si le temps

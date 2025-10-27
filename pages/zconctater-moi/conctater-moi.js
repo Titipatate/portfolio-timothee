@@ -28,7 +28,7 @@ function animateButton(btn) {
   }, 4000);
 }
 
-fetch("../../composent/footer/footer.html")
+fetch("/portfolio-timothee/composent/footer/footer.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("footer-container").innerHTML = data;

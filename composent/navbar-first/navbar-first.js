@@ -51,13 +51,15 @@ function generateNavbarItems(config) {
 function loadNavbar() {
   const basePath = getBasePath();
 
-  fetch(`${basePath}composent/navbar-first/navbar-first.html`)
+  fetch(`/portfolio-timothee/composent/navbar-first/navbar-first.html`)
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("navbar-principal").innerHTML = data;
 
       // Puis charge la configuration et génère les items
-      return fetch(`${basePath}composent/navbar-first/navbar-config.json`);
+      return fetch(
+        `/portfolio-timothee/composent/navbar-first/navbar-config.json`
+      );
     })
     .then((response) => response.json())
     .then((config) => {

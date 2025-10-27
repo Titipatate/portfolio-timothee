@@ -1,6 +1,6 @@
 // Attendre que Bootstrap soit complètement chargé
 window.addEventListener("load", function () {
-  fetch("composent/navbar-second/navbar-index.html")
+  fetch("/portfolio-timothee/composent/navbar-second/navbar-index.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("navbar-index").innerHTML = data;
